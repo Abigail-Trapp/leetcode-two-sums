@@ -19,3 +19,7 @@ body.append(p)
 let p2 = document.createElement("p")
 p2.innerHTML = `[3,2,4,6], target = 6 => ${twoSum([3,2,4,6], 6)}`
 p.append(p2)
+
+let p3 = document.createElement("p")
+p3.innerHTML = `[3,3], target = 6 => ${twoSum([3,3], 6)}`
+p2.append(p3)
